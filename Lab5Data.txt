@@ -1,0 +1,32 @@
+IN 12345678 T.Nute      Planning        Supervisor        25.00
+IN 34567890 B.Smith     Shipping        ClerkI            17.50
+IN 23456789 S.Jones     Marketing       Secretary         16.00
+PA                                                             
+IN 13456789 J.Jones     Design          Director          25.00
+IN 01234567 B.Doe       Cleaning        Supervisor        12.50
+PI 34567890                                                    
+UN 23456789 S.Jones     Marketing       S.Smith                
+UR 23456789 S.Smith     Marketing         27.00                
+UT 23456789 S.Smith     Marketing       Trainee                
+UD 23456789 S.Smith     Marketing       Manufacturing          
+UN 01234567 B.Doe       Cleaning        B.Smith                
+IN 34534565 H.Nelson    Design          TeamLeaderI       26.50
+IN 36323232 P.Jones     Design          TeamLeaderII      30.50
+PA                                                             
+PD Design                                                      
+DE 23456789                                                    
+IN 00232323 Y.Tittle    Marketing       Director          35.00
+IN 45454545 T.Tunes     Shipping        ClerkII            3.00
+UR 34567890 H.Nelson    Design            35.00
+IN 12121212 B.Gates     Cleaning        JanitorI           3.50
+UT 12121212 B.Gates     Cleaning        JanitorII              
+DE 11111111                                                    
+DE 13456789                                                    
+PI 11111111                                                    
+DE 23456789                                                    
+PD Cleaning                                                    
+PD Operations                                                  
+PI 23456789                                                    
+PI 34534565                                                    
+DE 01234567                                                    
+PA       

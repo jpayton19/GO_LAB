@@ -1,0 +1,63 @@
+START PROGRAM
+IN: Employee #12345678 inserted.
+IN: Employee #34567890 inserted.
+IN: Employee #23456789 inserted.
+PA: BEGIN PRINT ALL
+12345678 T.Nute      Planning        Supervisor      25.00
+23456789 S.Jones     Marketing       Secretary       16.00
+34567890 B.Smith     Shipping        ClerkI          17.50
+END PRINT ALL
+IN: Employee #13456789 inserted.
+IN: Employee #01234567 inserted.
+PI: 34567890 B.Smith     Shipping        ClerkI          17.50
+UN: Employee #23456789 name changed from S.Jones to S.Smith.
+UR: Employee #23456789 payrate changed from 16.00 to 27.00.
+UT: Employee #23456789 title changed from Secretary to Trainee.
+UD: Employee #23456789 department changed from Marketing to Manufacturing.
+UN: Employee #01234567 name changed from B.Doe to B.Smith.
+IN: Employee #34534565 inserted.
+IN: Employee #36323232 inserted.
+PA: BEGIN PRINT ALL
+01234567 B.Smith     Cleaning        Supervisor      12.50
+12345678 T.Nute      Planning        Supervisor      25.00
+13456789 J.Jones     Design          Director        25.00
+23456789 S.Smith     Manufacturing   Trainee         27.00
+34534565 H.Nelson    Design          TeamLeaderI     26.50
+34567890 B.Smith     Shipping        ClerkI          17.50
+36323232 P.Jones     Design          TeamLeaderII    30.50
+END PRINT ALL
+PD: BEGIN PRINT DEPARTMENT:
+13456789 J.Jones     Design          Director        25.00
+34534565 H.Nelson    Design          TeamLeaderI     26.50
+36323232 P.Jones     Design          TeamLeaderII    30.50
+END PRINT DEPARTMENT.
+DE: Employee #23456789 deleted.
+IN: Employee #00232323 inserted.
+IN: Employee #45454545 inserted.
+UR: Employee #34567890 payrate changed from 17.50 to 35.00.
+IN: Employee #12121212 inserted.
+UT: Employee #12121212 title changed from JanitorI to JanitorII.
+DE ERROR: Employee #11111111 not found.
+DE: Employee #13456789 deleted.
+PI ERROR: Employee #11111111 not found.
+DE ERROR: Employee #23456789 not found.
+PD: BEGIN PRINT DEPARTMENT:
+01234567 B.Smith     Cleaning        Supervisor      12.50
+12121212 B.Gates     Cleaning        JanitorII       3.50
+END PRINT DEPARTMENT.
+PD: BEGIN PRINT DEPARTMENT:
+PD ERROR: Operations department not found.
+END PRINT DEPARTMENT.
+PI ERROR: Employee #23456789 not found.
+PI: 34534565 H.Nelson    Design          TeamLeaderI     26.50
+DE: Employee #01234567 deleted.
+PA: BEGIN PRINT ALL
+00232323 Y.Tittle    Marketing       Director        35.00
+12121212 B.Gates     Cleaning        JanitorII       3.50
+12345678 T.Nute      Planning        Supervisor      25.00
+34534565 H.Nelson    Design          TeamLeaderI     26.50
+34567890 B.Smith     Shipping        ClerkI          35.00
+36323232 P.Jones     Design          TeamLeaderII    30.50
+45454545 T.Tunes     Shipping        ClerkII         3.00
+END PRINT ALL
+END PROGRAM
